@@ -3,6 +3,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-PDF_PATH = "data/rules.pdf"
+PDF_PATH = "data/newrules.pdf"
 VECTORSTORE_PATH = "vectorstore"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
